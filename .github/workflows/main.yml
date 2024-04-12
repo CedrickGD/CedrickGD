@@ -1,0 +1,32 @@
+name: Update README with Daily Quote
+
+on:
+  schedule:
+    # Runs at midnight UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    name: Update this repo's README with a random quote
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch Random Quote
+        id: quote
+        run: |
+          QUOTE=$(curl -s -X GET "https://api.quotable.io/random" | jq -r '.content + " — " + .author')
+          echo "::set-output name=QUOTE::$QUOTE"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update README
+        run: |
+          QUOTE="${{ steps.quote.outputs.QUOTE }}"
+          sed -i "s/<!--STARTS_QUOTE-->.*<!--ENDS_QUOTE-->/<!--STARTS_QUOTE-->$QUOTE<!--ENDS_QUOTE-->/" README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git diff
+          git diff-index --quiet HEAD || (git add README.md && git commit -m "Update README with random quote" && git push)
