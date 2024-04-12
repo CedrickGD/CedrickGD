@@ -7,6 +7,9 @@
 *Daily Quote:* "Excellence is not a skill, it's an attitude." — Ralph Marston
 <!--ENDS_QUOTE-->
 
-[![Music I listen to --> ](https://github.com/CedrickGD/CedrickGD/blob/main/Alpha.png)]([https://www.youtube.com/watch?v=iIbZk3tOesM&list=RDGMEMFaJ_9aiYcruIqS2U_rnQ1w&index=27](https://youtu.be/iIbZk3tOesM?si=fpSs4He5pmjRsaNn))
-
-
+<p>
+  <span style="font-size: larger; font-weight: bold; vertical-align: middle;">Music I Listen To &rarr;</span>
+  <a href="https://youtu.be/iIbZk3tOesM?si=1KA_f4f4EUqiU3hr">
+    <img src="https://github.com/CedrickGD/CedrickGD/blob/main/Alpha.png" alt="Watch the video" width="20" style="vertical-align:middle;"/>
+  </a>
+</p>
