@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit and push if changed
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "business.grabe@gmail.com"
+          git config --global user.name "CedrickGD
           git diff
           git diff-index --quiet HEAD || (git add README.md && git commit -m "Update README with random quote" && git push)
