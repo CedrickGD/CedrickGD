@@ -1,4 +1,4 @@
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CedrickGD&theme=dark)](https://github.com/CedrickGD/github-readme-stats)
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CedrickGD&theme=darkblue)](https://github.com/CedrickGD/github-readme-stats)
 
 
 ### Fact -> ChatGPT Lover 👑
