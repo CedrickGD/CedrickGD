@@ -1,4 +1,4 @@
-👋 Welcome to my GitHub profile!  
+#👋 Welcome to my GitHub profile!  
    I love building sleek tools and apps, experimenting with code.
 
 ---
