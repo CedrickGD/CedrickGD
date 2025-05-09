@@ -1,5 +1,7 @@
-#👋 Welcome to my GitHub profile!  
-   I love building sleek tools and apps, experimenting with code.
+#👋 Hi 
+
+Welcome to my GitHub profile!  
+I love building sleek tools and apps, experimenting with code.
 
 ---
 
