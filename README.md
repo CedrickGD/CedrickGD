@@ -2,16 +2,22 @@
 
 ---
 
-Welcome to my GitHub profile!  
-I love building sleek tools and apps, experimenting with code.
-
----
-
 ## 📊 GitHub Stats
 
-![Cedrick's GitHub stats](https://github-readme-stats.vercel.app/api?username=CedrickGD&show_icons=true&theme=radical)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CedrickGD&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)  
-![GitHub Streak](https://streak-stats.demolab.com/?user=CedrickGD&theme=radical)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=CedrickGD&show_icons=true&theme=radical" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CedrickGD&layout=compact&theme=radical" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=CedrickGD&theme=radical" />
+</div>
 
 ---
 
@@ -29,4 +35,3 @@ I love building sleek tools and apps, experimenting with code.
 ---
 
 > _"Just a guy coding his way through the noise."_
-
